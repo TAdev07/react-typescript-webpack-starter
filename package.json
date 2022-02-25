@@ -63,5 +63,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "postinstall": "husky install"
 }
